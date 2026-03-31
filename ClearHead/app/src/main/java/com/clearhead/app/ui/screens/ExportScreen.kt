@@ -81,7 +81,7 @@ fun ExportScreen(viewModel: ClearHeadViewModel) {
         ExportCard(
             title = "Migraine Events",
             description = "Individual migraine episodes with start/end time, duration, pain level (1–10), location, symptoms, and notes.",
-            icon = Icons.Default.HeadacheOutline,
+            icon = Icons.Default.Warning,
             count = allEvents.size,
             countLabel = "events",
             isLoading = isExportingEvents,

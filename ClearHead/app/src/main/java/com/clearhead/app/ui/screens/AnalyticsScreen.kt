@@ -27,7 +27,7 @@ import java.time.format.DateTimeFormatter
 import kotlin.math.roundToInt
 
 @Composable
-fun AnalyticsScreen(viewModel: ClearHeadViewModel) {
+fun AnalyticsScreen() {
     val allLogs by viewModel.allLogs.collectAsState()
 
     var rangeIndex by remember { mutableStateOf(1) } // 0=2wk 1=30d 2=90d 3=All

@@ -1,3 +1,4 @@
+@OptIn(ExperimentalMaterial3Api::class)
 package com.clearhead.app.ui.components
 
 import androidx.compose.animation.*
